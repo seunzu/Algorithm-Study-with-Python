@@ -1,13 +1,18 @@
 N = int(input())
 n = list(map(int, input().split()))
-count = 0
+answer = 0
 
 for i in n:
-    for j in range(2, i+1):
+    count = 0
+
+    if i == 1:
+        continue
+
+    for j in range(2, n+1):
         if i % j == 0:
-            if i == j:
-                count += 1
+            count += 1
 
-            break
+    if count == 1:
+        answer += 1
 
-print(count)
+print(answer)
