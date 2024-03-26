@@ -1,3 +1,8 @@
 n = int(input())
-for j in range(n,0,-1):
-    print((n-j)*' '+'*'*(2*j-1))
+for i in range(1,n+1):
+    if i==1:
+        print(' '*(n-i)+'*')
+    elif i==n:
+        print('*'*(i*2-1))
+    else:
+        print(' ' * (n - i) + "*" + ' ' * (i * 2 - 3) + "*")
