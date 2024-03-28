@@ -5,7 +5,7 @@ count = 0
 for i in range(len(ir)):
     if ir[i] == '(':
         stack.append('(')
-    else:
+    else: # ir[i] == ')'
         if ir[i-1] == '(':
             stack.pop()
             count += len(stack)
