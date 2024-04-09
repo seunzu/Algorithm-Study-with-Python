@@ -48,6 +48,7 @@ ex. seunzu : 자료구조 1 10828 스택
   
 ## reference
 - [(이코테 2021) 이것이 취업을 위한 코딩 테스트다 with 파이썬](https://youtu.be/m-9pAwq1o3w?si=4CL0u8_TVMmHWWNc)
+- [(이코테 2021) GitHub](https://github.com/ndb796/python-for-coding-test)
 - [알고리즘 공부를 어떻게 시작해야할까?](https://steady-coding.tistory.com/260)
 - [영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌#reviews)
 
